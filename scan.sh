@@ -9,13 +9,13 @@ else
 	if [[ $2 == "-Pn" ]]; then
 		echo -e "$green Please wait we are checking Open Ports.....$null"
 		if port=$(nmap -Pn -p- --min-rate 10000  $1 -v -oN scan.txt | grep ^[0-9] | cut -d '/' -f 1 | tr '\n' ',' | sed s/,$//);then
-			echo -e "$greenNow WE are working on ports services.....$null"
+			echo -e "$green Port Scanning is Done, Now WE are working on ports services.....$null"
 			nmap -Pn -sC -sV -A -T4 -p $port $1 -oN nmap_scan.txt
 		fi
 	else 
 		echo -e "$green Please wait we are checking Open Ports.....$null"
 		if port1=$(nmap -p- --min-rate 10000 $1 -v -oN scan.txt | grep ^[0-9] | cut -d '/' -f 1 | tr '\n' ',' | sed s/,$//); then
-			echo -e "$green Now WE are working on ports services.....$null"
+			echo -e "$green Port Scanning is Done, Now WE are working on ports services.....$null"
 			nmap -sC -sV -A -T4 -p $port1 $1 -oN  nmap_scan.txt
 		fi
 fi
