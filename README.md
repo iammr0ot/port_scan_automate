@@ -43,7 +43,7 @@ A comprehensive and user-friendly toolkit designed to streamline the process of 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/android-forensic-toolkit.git
+   git clone https://github.com/iammr0ot/android-forensic-toolkit.git
    ```
 2. Navigate to the project directory:
    ```bash
