@@ -15,8 +15,6 @@ A comprehensive and user-friendly toolkit designed to streamline the process of 
 
 ### **Additional Features**
 - **Deleted Data Recovery**: Identify and reconstruct deleted data entries.
-- **Hexadecimal Analysis**: Perform hex-level analysis of files for tampering detection.
-- **Secure Data Storage**: Encrypt sensitive forensic data and logs for secure storage.
 - **Cross-Platform Compatibility**: Supports Windows, Linux (Ubuntu 20.04+), and macOS.
 
 ---
@@ -31,11 +29,11 @@ A comprehensive and user-friendly toolkit designed to streamline the process of 
 ### **Hardware Requirements**
 - **Minimum**:
   - Processor: Intel Core i5 or equivalent.
-  - RAM: 8 GB.
+  - RAM: 4 GB.
   - Storage: 500 MB free for application files and temporary data.
 - **Recommended**:
   - Processor: Intel Core i7 or higher.
-  - RAM: 16 GB or more.
+  - RAM: 8 GB or more.
   - GPU: NVIDIA GTX 1050 or better for faster processing.
   - Storage: 1 GB free space.
 
@@ -51,20 +49,16 @@ A comprehensive and user-friendly toolkit designed to streamline the process of 
    ```bash
    cd android-forensic-toolkit
    ```
-3. Install the required dependencies:
+3. Run the application by double clicking on Run.bat File:
    ```bash
-   pip install -r requirements.txt
-   ```
-4. Run the application:
-   ```bash
-   python main.py
+   Run.bat
    ```
 
 ---
 
 ## **Usage**
 
-1. **Launch the Toolkit**: Start the application by running `python main.py`.
+1. **Launch the Toolkit**: Start the application by running `Run.bat`.
 2. **Create or Open a Case**: Use the intuitive interface to manage case files and directories.
 3. **Data Acquisition**: Connect the Android device and retrieve files or databases using ADB.
 4. **Analysis**: Parse the data, recover deleted records, and extract metadata.
@@ -89,16 +83,19 @@ The toolkit employs a modular architecture for scalability and maintainability:
 ## **Diagrams**
 
 ### **Architecture Diagram**
-![Architecture Diagram](architecture_diagram.png)
+![architecture diagram](https://github.com/user-attachments/assets/81e7d5bc-907e-44d8-88ca-72b88d783897)
 
 ### **Sequence Diagram**
-![Sequence Diagram](sequence_diagram.png)
+![Sequence Diagram](https://github.com/user-attachments/assets/e69bc0f7-751f-4a76-b475-6353721bc920)
 
 ### **Use Case Diagram**
-![Use Case Diagram](use_case_diagram.png)
+![use case diagram](https://github.com/user-attachments/assets/72802033-3eaa-4a83-b668-dbdfbf44c909)
 
 ### **Data Flow Diagram**
-![Data Flow Diagram](data_flow_diagram.png)
+![data flow diagram](https://github.com/user-attachments/assets/645942a0-a8a1-4936-9722-3e2c35e59ef2)
+
+### **Flowchart**
+![flow_chart](https://github.com/user-attachments/assets/bf38e59b-600a-4052-8bb1-d71feb8e1087)
 
 ---
 
@@ -130,11 +127,6 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## **License**
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
 
 ## **Acknowledgments**
 
